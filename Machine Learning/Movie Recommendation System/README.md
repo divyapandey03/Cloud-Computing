@@ -8,5 +8,10 @@ Recommender System is an information filtering tool that seeks to predict which 
 ## Design:
 
 We use Collaborative filtering which is commonly used for recommender systems. These techniques aim to fill in the missing entries of a user-item association matrix, in our case, the user-movie rating matrix. MLlib currently supports model-based collaborative filtering, in which users and products are described by a small set of latent factors that can be used to predict missing entries. In particular, we implement the alternating least squares (ALS) algorithm to learn these latent factors.
-<img width="691" alt="k7" src="https://user-images.githubusercontent.com/23255126/202931001-22b11e5c-fa28-4eeb-9a7f-35aa7ec27fbf.png">
 
+
+<img width="240" alt="k5" src="https://user-images.githubusercontent.com/23255126/202931048-118df830-3760-46a9-bf30-83ca9ab3396d.png">
+
+For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’ and ‘The Avengers’ while the user ‘B’ likes ‘Batman Begins’, ‘Justice League’ and ‘Thor’ then they have similar interests because we know that these movies belong to the super-hero genre. So, there is a high probability that the user ‘A’ would like ‘Thor’ and the user ‘B’ would like The Avengers’.
+
+<img width="525" alt="k6" src="https://user-images.githubusercontent.com/23255126/202931069-44e833ea-7a47-4f34-98e6-d7b30f39a9c2.png">
