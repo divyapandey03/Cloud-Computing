@@ -24,8 +24,15 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
 - https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 - Upload movies.csv,ratings.csv and tags.csv file
 - Run All
+- Download movielens.py file
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/23255126/202949117-083b7be7-c9e0-46f0-ba89-ed0cc48ee164.png)
+
+![Screenshot (4)](https://user-images.githubusercontent.com/23255126/202951992-21b381d1-cf02-47ba-b454-a211a63a36a7.png)
+
+
+
+
 
 ## Implementation(Google Cloud Dataproc):
 - Create  Google cloud Dataproc Cluster
