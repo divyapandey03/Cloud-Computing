@@ -27,7 +27,14 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/23255126/202949117-083b7be7-c9e0-46f0-ba89-ed0cc48ee164.png)
 
-Implementation(Google Cloud Dataproc):
-- Create t<img width="479" alt="g10" src="https://user-images.githubusercontent.com/23255126/202949711-1780e4c4-8674-45dc-af00-6041a2f5d56c.png">
-he Google cloud Dataproc Cluster
+## Implementation(Google Cloud Dataproc):
+- Create  Google cloud Dataproc Cluster
+
+
+<img width="599" alt="k2" src="https://user-images.githubusercontent.com/23255126/202950034-58c190ef-b906-4a9f-af3d-e2d8c6aec19f.png">
+
+- SSH into it
+- Upload the movies.csv and ratings.csv file
+- Create the HDFS Directory:
+   -hdfs dfs -mkdir hdfs:///movielens
 
