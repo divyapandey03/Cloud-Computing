@@ -47,8 +47,7 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
    hdfs dfs -mkdir hdfs:///movielens
    
 - Copy the movies.csv and ratings.csv file into HDFS Directory:
-  hdfs dfs -put movies.csv hdfs:///movielens,
-  hdfs dfs -put ratings.csv hdfs:///movielens
+  hdfs dfs -put movies.csv hdfs:///movielens, hdfs dfs -put ratings.csv hdfs:///movielens
   
   ### Run:
         spark-submit movielens.py
