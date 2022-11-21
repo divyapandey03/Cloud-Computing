@@ -45,8 +45,8 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
   ### Run:
         spark-submit movielens.py
         
-        <img width="508" alt="g9" src="https://user-images.githubusercontent.com/23255126/202950761-f76577c3-43a5-4478-b665-7606a118a36a.png">
+       
 
 
 
-
+<img width="508" alt="g9" src="https://user-images.githubusercontent.com/23255126/202950872-7194e51d-c1d9-4290-ad1f-a6a80f69cfce.png">
