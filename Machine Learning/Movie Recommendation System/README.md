@@ -45,8 +45,27 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
   ### Run:
         spark-submit movielens.py
         
-       
-
-
 
 <img width="508" alt="g9" src="https://user-images.githubusercontent.com/23255126/202950872-7194e51d-c1d9-4290-ad1f-a6a80f69cfce.png">
+
+
+## Output:
+
+### Google Colab:
+<img width="643" alt="k1" src="https://user-images.githubusercontent.com/23255126/202951018-9990a33b-fee5-4ba2-8829-021a763f6d82.png">
+
+<img width="599" alt="k2" src="https://user-images.githubusercontent.com/23255126/202951051-fc160bfb-a4d6-4728-b67a-0491b9ad0f58.png">
+
+<img width="944" alt="k3" src="https://user-images.githubusercontent.com/23255126/202951071-1b2b985b-726b-44f4-8e7a-ef096714e494.png">
+
+### Google Cloud DataProc:
+
+
+<img width="217" alt="g6" src="https://user-images.githubusercontent.com/23255126/202951145-c24f8b83-6d43-47ed-9303-b02af1b304f6.png">
+
+
+
+<img width="462" alt="g7" src="https://user-images.githubusercontent.com/23255126/202951153-be44e212-c33c-4030-8338-24c365b68b90.png">
+
+
+<img width="435" alt="g8" src="https://user-images.githubusercontent.com/23255126/202951161-622441d0-dc42-4ac5-bd90-20c8826fc106.png">
