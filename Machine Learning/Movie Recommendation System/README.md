@@ -17,3 +17,12 @@ We use Collaborative filtering which is commonly used for recommender systems. T
 For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’ and ‘The Avengers’ while the user ‘B’ likes ‘Batman Begins’, ‘Justice League’ and ‘Thor’ then they have similar interests because we know that these movies belong to the super-hero genre. So, there is a high probability that the user ‘A’ would like ‘Thor’ and the user ‘B’ would like The Avengers’.
 
 <img width="525" alt="k6" src="https://user-images.githubusercontent.com/23255126/202931069-44e833ea-7a47-4f34-98e6-d7b30f39a9c2.png">
+
+
+## Implementation(Google Colab):
+- Download movielens.ipynb
+- https://colab.research.google.com/notebooks/intro.ipynb#recent=true
+- Upload movies.csv,ratings.csv and tags.csv file
+- Run All
+
+![Screenshot (6)](https://user-images.githubusercontent.com/23255126/202949117-083b7be7-c9e0-46f0-ba89-ed0cc48ee164.png)
