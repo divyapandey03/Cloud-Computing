@@ -42,6 +42,7 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
 
 - SSH into it
 - Upload the movies.csv and ratings.csv file
+- Upload movielens.py file
 - Create the HDFS Directory:
    hdfs dfs -mkdir hdfs:///movielens
    
