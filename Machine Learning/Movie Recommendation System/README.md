@@ -77,3 +77,6 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
 
 
 <img width="435" alt="g8" src="https://user-images.githubusercontent.com/23255126/202951161-622441d0-dc42-4ac5-bd90-20c8826fc106.png">
+
+## Presentation Link: 
+https://docs.google.com/presentation/d/1yprDUy-fmjwhP5075syXjG0xq6HCSpFK/edit?usp=sharing&ouid=115854624782305611491&rtpof=true&sd=true
