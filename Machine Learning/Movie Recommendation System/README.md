@@ -36,5 +36,17 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
 - SSH into it
 - Upload the movies.csv and ratings.csv file
 - Create the HDFS Directory:
-   -hdfs dfs -mkdir hdfs:///movielens
+   hdfs dfs -mkdir hdfs:///movielens
+   
+- Copy the movies.csv and ratings.csv file into HDFS Directory:
+  hdfs dfs -put movies.csv hdfs:///movielens,
+  hdfs dfs -put ratings.csv hdfs:///movielens
+  
+  ### Run:
+        spark-submit movielens.py
+        
+        <img width="508" alt="g9" src="https://user-images.githubusercontent.com/23255126/202950761-f76577c3-43a5-4478-b665-7606a118a36a.png">
+
+
+
 
