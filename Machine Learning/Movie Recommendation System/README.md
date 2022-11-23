@@ -36,10 +36,6 @@ For example, if the user ‘A’ likes ‘Batman Begins’, ‘Justice League’
 
 ## Implementation(Google Cloud Dataproc):
 - Create  Google cloud Dataproc Cluster
-
-
-<img width="599" alt="k2" src="https://user-images.githubusercontent.com/23255126/202950034-58c190ef-b906-4a9f-af3d-e2d8c6aec19f.png">
-
 - SSH into it
 - Upload the movies.csv and ratings.csv file
 - Upload movielens.py file
