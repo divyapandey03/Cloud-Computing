@@ -14,3 +14,14 @@ Kafka is primarily used to build real-time streaming data pipelines and applicat
 We use Apache Kafka in a Linux environment in GCP Platform and reveals how events are consumed and produced using a Kafka-Python.The following diagram illustrates the Kafka ecosystem we’re going to set up.
 
 <img width="553" alt="kafkaimage" src="https://user-images.githubusercontent.com/23255126/205745054-63ed168b-f050-48b4-9cbf-3089f193787e.png">
+
+## Spark Streaming:
+
+Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of live data streams. Data can be ingested from many sources like Kafka, Kinesis, or TCP sockets, and can be processed using complex algorithms expressed with high-level functions like map, reduce, join and window. Finally, processed data can be pushed out to filesystems, databases, and live dashboards. In fact, you can apply Spark’s machine learning and graph processing algorithms on data streams.
+
+
+<img width="529" alt="d1" src="https://user-images.githubusercontent.com/23255126/205745887-a26b48ce-1dbf-455c-acf6-558bd57b6be4.png">
+
+Internally, it works as follows. Spark Streaming receives live input data streams and divides the data into batches, which are then processed by the Spark engine to generate the final stream of results in batches.
+
+<img width="467" alt="d2" src="https://user-images.githubusercontent.com/23255126/205746024-8ec81aff-5f56-4150-a84e-db670f810d52.png">
