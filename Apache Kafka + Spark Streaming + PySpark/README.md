@@ -10,3 +10,7 @@ Kafka provides three main functions to its users:
 
 
 Kafka is primarily used to build real-time streaming data pipelines and applications that adapt to the data streams. It combines messaging, storage, and stream processing to allow storage and analysis of both historical and real-time data.  
+
+We use Apache Kafka in a Linux environment in GCP Platform and reveals how events are consumed and produced using a Kafka-Python.The following diagram illustrates the Kafka ecosystem we’re going to set up.
+
+<img width="553" alt="kafkaimage" src="https://user-images.githubusercontent.com/23255126/205745054-63ed168b-f050-48b4-9cbf-3089f193787e.png">
