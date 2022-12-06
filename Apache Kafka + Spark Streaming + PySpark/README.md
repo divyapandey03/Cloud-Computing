@@ -28,10 +28,10 @@ Internally, it works as follows. Spark Streaming receives live input data stream
 
 ## Installing Spark
 Step : Download spark-2.3.2 to the local machine using the following command:
-$ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+- $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
 
 Step : Unpack
-$ tar -xvf spark-3.3.1-bin-hadoop3.tgz
+- $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
 
 <img width="646" alt="g2" src="https://user-images.githubusercontent.com/23255126/205775687-0b33ab76-ea95-4c1c-8007-4a721e545ad9.png">
 
@@ -62,6 +62,51 @@ export PATH=$SPARK_HOME/sbin:$PATH
    $ pyspark
    
    <img width="857" alt="g3" src="https://user-images.githubusercontent.com/23255126/205776226-180c98ae-86ac-45b4-ac44-22290cbef18a.png">
+   
+   ###  Start the master in this machine
+   -  start-master.sh
+   -  URL: http://34.70.113.82:8080/
+
+<img width="475" alt="g4" src="https://user-images.githubusercontent.com/23255126/205776524-9d4ae2e9-5725-4188-89a1-0a9cf28c6239.png">
+
+
+
+
+<img width="935" alt="g5" src="https://user-images.githubusercontent.com/23255126/205776531-52c529c2-8b28-47b6-b91a-bc96029d306f.png">
+
+### Starting worker
+
+- start-slave.sh spark://34.70.113.82:7077
+- browse URL: http://34.70.113.82:8080/
+
+
+<img width="956" alt="g6" src="https://user-images.githubusercontent.com/23255126/205776779-80516bba-480a-45eb-bcd0-140b3b861741.png">
+
+
+### Run WordCount Example in Python:
+
+Terminal 1:
+- nc -lk 9999
+
+
+<img width="202" alt="g10" src="https://user-images.githubusercontent.com/23255126/205777220-bab6d97e-4477-40f4-adb1-58921cf7ce57.png">
+
+Terminal 2:
+-  cd spark
+- ./bin/spark-submit examples/src/main/python/streaming/network_wordcount.py localhost 9999
+
+
+You will see output like this:
+
+<img width="446" alt="g7" src="https://user-images.githubusercontent.com/23255126/205777270-a4697ead-2465-4c65-bff6-2aaa0ad9cf68.png">
+
+
+
+<img width="470" alt="g8" src="https://user-images.githubusercontent.com/23255126/205777287-15297984-3059-42aa-a058-c6865faef4d1.png">
+
+<img width="463" alt="g9" src="https://user-images.githubusercontent.com/23255126/205777357-9f61268c-77e5-4524-8a1f-4f7578c33517.png">
+<img width="202" alt="g10" src="https://user-images.githubusercontent.com/23255126/205777361-4d62c623-16a8-48bf-afba-0e6e03224d6d.png">
+
 
 
 
