@@ -25,3 +25,43 @@ Spark Streaming is an extension of the core Spark API that enables scalable, hig
 Internally, it works as follows. Spark Streaming receives live input data streams and divides the data into batches, which are then processed by the Spark engine to generate the final stream of results in batches.
 
 <img width="467" alt="d2" src="https://user-images.githubusercontent.com/23255126/205746024-8ec81aff-5f56-4150-a84e-db670f810d52.png">
+
+## Installing Spark
+Step : Download spark-2.3.2 to the local machine using the following command:
+$ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+
+Step : Unpack
+$ tar -xvf spark-3.3.1-bin-hadoop3.tgz
+
+<img width="646" alt="g2" src="https://user-images.githubusercontent.com/23255126/205775687-0b33ab76-ea95-4c1c-8007-4a721e545ad9.png">
+
+create a soft link:
+$ ln -s /home/dpandey/spark-3.3.1-bin-hadoop3 /home/dpandey/spark
+
+### Add SPARK_HOME entry to bashrc
+
+export SPARK_HOME=/home/dpandey/spark
+
+export PATH=$SPARK_HOME/bin:$PATH
+
+export PATH=$SPARK_HOME/sbin:$PATH
+
+
+### Load bashrc file 
+ source ~/.bashrc
+ 
+### Install Java
+
+- sudo apt-get update
+- sudo apt install default-jdk
+- java --version
+- update-alternatives --list java
+- export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+
+### Verify the installation
+   $ pyspark
+   
+   <img width="857" alt="g3" src="https://user-images.githubusercontent.com/23255126/205776226-180c98ae-86ac-45b4-ac44-22290cbef18a.png">
+
+
+
