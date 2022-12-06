@@ -27,16 +27,16 @@ Internally, it works as follows. Spark Streaming receives live input data stream
 <img width="467" alt="d2" src="https://user-images.githubusercontent.com/23255126/205746024-8ec81aff-5f56-4150-a84e-db670f810d52.png">
 
 ## Installing Spark
-Step : Download spark-2.3.2 to the local machine using the following command:
-- $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+- Step : Download spark-2.3.2 to the local machine using the following command:
+   -  $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
 
-Step : Unpack
-- $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
+- Step : Unpack
+    - $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
 
 <img width="646" alt="g2" src="https://user-images.githubusercontent.com/23255126/205775687-0b33ab76-ea95-4c1c-8007-4a721e545ad9.png">
 
-create a soft link:
-$ ln -s /home/dpandey/spark-3.3.1-bin-hadoop3 /home/dpandey/spark
+- create a soft link:
+  - ln -s /home/dpandey/spark-3.3.1-bin-hadoop3 /home/dpandey/spark
 
 ### Add SPARK_HOME entry to bashrc
 
