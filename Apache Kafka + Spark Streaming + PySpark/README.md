@@ -162,3 +162,12 @@ You will see output like this in consumer.py Terminal 3:
 
 
 <img width="487" alt="g16" src="https://user-images.githubusercontent.com/23255126/205779275-5415a1e0-fe85-4278-8b09-260e629a3522.png">
+
+### Create and Submit Spark Application:
+- Create pyspark_script directory: mkdir pyspark_script
+- cd pyspark_script
+- Download spark application file from this link: https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Kafka%20%2B%20Spark%20Streaming%20%2B%20PySpark/spark_processor.py
+- Download Spark Streaming’s Kafka libraries:  wget https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.3.2/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar
+
+### Submit the spark Application:
+- spark-submit --jars /home/dpandey/pyspark_script/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar --master spark:34.70.113.82:7077 --deploy-mode client /home/dpandey/spark_processor.py
