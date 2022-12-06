@@ -109,7 +109,7 @@ You will see output like this:
 # Starting Kafka
 
 Step 1: 
-       - Download: wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+       -  Download: wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
        -  tar -xvf kafka_2.12-3.3.1.tgz
        - Go to Kafka root folder
        - Start Kafka Zookeeper(Terminal 1-Keep Session on)
@@ -133,6 +133,32 @@ Step 1:
    - pip3 install msgpack
    - pip3 install kafka-python
    
+ - Code for producing the events(producer.py)
+   - cd kafka_2.12-3.3.1
+   - create producer.py file
+
+ 
+ <img width="467" alt="k2" src="https://user-images.githubusercontent.com/23255126/205778789-47947679-b559-488a-84a2-67af18e52604.png">
+
+ - Code for Consuming the events(consumer.py)
+   - cd kafka_2.12-3.3.1
+   - create consumer.py file
   
+<img width="326" alt="k1" src="https://user-images.githubusercontent.com/23255126/205778797-a8ddcf16-004a-4cec-97a8-0902c6d43409.png">
 
 
+- Run (Terminal 3):
+
+ - /bin/python3 consumer.py
+
+- Run (Terminal 4)
+  - /bin/python3 producer.py
+  
+  
+<img width="347" alt="g15" src="https://user-images.githubusercontent.com/23255126/205779204-8eca40b4-4083-4a23-aad4-bc4e70fe81dd.png">
+
+
+You will see output like this in consumer.py Terminal 3:
+
+
+<img width="487" alt="g16" src="https://user-images.githubusercontent.com/23255126/205779275-5415a1e0-fe85-4278-8b09-260e629a3522.png">
