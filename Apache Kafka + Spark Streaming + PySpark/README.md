@@ -171,3 +171,5 @@ You will see output like this in consumer.py Terminal 3:
 
 ### Submit the spark Application:
 - spark-submit --jars /home/dpandey/pyspark_script/spark-streaming-kafka-0-8-assembly_2.11-2.3.2.jar --master spark:34.70.113.82:7077 --deploy-mode client /home/dpandey/spark_processor.py
+
+## Presentation Link: https://docs.google.com/presentation/d/1Nk6KPRh4Os5b4YGgGoxjtBPTYR7MkTJq/edit?usp=sharing&ouid=115854624782305611491&rtpof=true&sd=true
