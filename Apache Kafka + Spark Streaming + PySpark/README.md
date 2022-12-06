@@ -108,7 +108,7 @@ You will see output like this:
 
 # Starting Kafka
 
- -  Download: wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+ -  Download Kafka: wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
  -   tar -xvf kafka_2.12-3.3.1.tgz
  -  Go to Kafka root folder
  -  Start Kafka Zookeeper(Terminal 1-Keep Session on)
