@@ -85,7 +85,7 @@ export PATH=$SPARK_HOME/sbin:$PATH
 
 ### Run WordCount Example in Python:
 
-Terminal 1:
+Terminal 1:Keep Session on
 - nc -lk 9999
 
 
@@ -105,8 +105,34 @@ You will see output like this:
 <img width="470" alt="g8" src="https://user-images.githubusercontent.com/23255126/205777287-15297984-3059-42aa-a058-c6865faef4d1.png">
 
 <img width="463" alt="g9" src="https://user-images.githubusercontent.com/23255126/205777357-9f61268c-77e5-4524-8a1f-4f7578c33517.png">
-<img width="202" alt="g10" src="https://user-images.githubusercontent.com/23255126/205777361-4d62c623-16a8-48bf-afba-0e6e03224d6d.png">
+
+# Starting Kafka
+
+Step 1: 
+       - Download: wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+       -  tar -xvf kafka_2.12-3.3.1.tgz
+       - Go to Kafka root folder
+       - Start Kafka Zookeeper(Terminal 1-Keep Session on)
+       
+       
+
+<img width="392" alt="g11" src="https://user-images.githubusercontent.com/23255126/205777756-786c0751-7a1f-45fb-b1bb-62efa913efaf.png">
 
 
+- Start Kafka Brokers(Open another Terminal 2)
+
+
+<img width="410" alt="g12" src="https://user-images.githubusercontent.com/23255126/205777817-55499133-f02f-46df-941a-36eac2ada4b6.png">
+
+- Create two Kafka Topics (input_event and output_event)
+   - bin/kafka-topics.sh --create --topic input_event --zookeeper localhost:2181 --partitions 3 --replication-factor 1
+   - bin/kafka-topics.sh --create --topic output_event --zookeeper localhost:2181 --partitions 3 --replication-factor 1
+ 
+ - Setup Spark:
+   - sudo apt install python3-pip
+   - pip3 install msgpack
+   - pip3 install kafka-python
+   
+  
 
 
