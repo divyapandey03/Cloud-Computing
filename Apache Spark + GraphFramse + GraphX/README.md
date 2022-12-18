@@ -31,3 +31,34 @@ oth GraphFrames and GraphX are useful tools for working with graph data in Spark
 
 <img width="476" alt="g2" src="https://user-images.githubusercontent.com/23255126/208321906-7e458e9f-415f-4d44-bba3-9e27d538dbf1.png">
 
+## Install Spark and Unpack it:
+
+
+<img width="485" alt="g1" src="https://user-images.githubusercontent.com/23255126/208321934-021463a4-cd05-4ca7-9a60-c18881521df8.png">
+
+
+## Create graphX directory and then prepare person.csv and relationship.csv file into graphX directory
+
+- mkdir graphX
+
+
+<img width="322" alt="g3" src="https://user-images.githubusercontent.com/23255126/208321953-95cb7b4e-e542-41d0-9d92-5acf27b5b6cd.png">
+
+## Install Numpy Library: 
+- sudo apt install python3-pip
+- pip3 install numpy
+
+## Prepare for the Code:
+- graphX.py
+Download Link:
+https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%20GraphFramse%20%2B%20GraphX/graphX.py
+
+## Download GraphFrames jar file:
+   https://repos.spark-packages.org/graphframes/graphframes/0.8.2-spark3.1-s_2.12/graphframes-0.8.2-spark3.1-s_2.12.jar
+   
+## Submit PySpark Job:
+
+- spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 pyspark_graphX.py
+
+
+
