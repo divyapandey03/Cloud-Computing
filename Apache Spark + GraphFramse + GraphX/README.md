@@ -84,6 +84,7 @@ https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%
 <img width="433" alt="l7" src="https://user-images.githubusercontent.com/23255126/208322401-77f58f07-8705-4b0c-9eb3-7618cd89b55d.png">
 
 **PageRank:**
+
 <img width="435" alt="l8" src="https://user-images.githubusercontent.com/23255126/208322445-d377a9b2-a44f-4a81-a596-364a0889f0d2.png">
 
 
