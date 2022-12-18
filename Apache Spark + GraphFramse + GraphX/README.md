@@ -4,7 +4,11 @@
 
 ![download](https://user-images.githubusercontent.com/23255126/208321724-b5bb9de0-16b0-4f6a-a711-55bbf744bee0.png)
 
-A GraphFrame is a distributed graph processing library for Apache Spark. It provides a set of APIs for constructing and manipulating graph data structures, as well as a set of algorithms for performing graph analysis tasks such as traversal, pattern matching, and community detection. One of the main advantages of GraphFrames is that it allows you to perform complex graph operations in a distributed and scalable manner, using the power of Apache Spark
+GraphFrames is a package for Apache Spark that provides a DataFrame-based API for working with graph data. It is designed to make it easy to perform graph analytics on large-scale data using Spark.
+
+GraphX is another graph processing library for Apache Spark. It provides a set of high-level APIs for graph computation and can be used to perform tasks such as graph filtering, vertex and edge manipulation, and graph traversal. GraphX also includes a collection of pre-built graph algorithms and utilities for graph visualization.
+
+oth GraphFrames and GraphX are useful tools for working with graph data in Spark. However, GraphFrames is generally easier to use and more efficient, as it is built on top of the DataFrame API, which is more optimized for large-scale data processing.
 
 <img width="249" alt="d3" src="https://user-images.githubusercontent.com/23255126/208321711-de315ff2-f1ef-4b2f-a838-186243a8ae0b.png">
 
