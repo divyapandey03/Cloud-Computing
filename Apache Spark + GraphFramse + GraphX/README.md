@@ -69,4 +69,16 @@ https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%
 <img width="421" alt="l1" src="https://user-images.githubusercontent.com/23255126/208322282-16f6ebcf-a355-4fa3-b679-cf71a8e0102f.png">
 <img width="305" alt="l2" src="https://user-images.githubusercontent.com/23255126/208322283-ea3dbeb2-c617-4688-a67a-6663ba39353b.png">
 
+**TriangleCount:**
 
+
+<img width="433" alt="l3" src="https://user-images.githubusercontent.com/23255126/208322384-5d43a987-0ce2-4333-a3af-d8d743b4e098.png">
+
+
+<img width="272" alt="l4" src="https://user-images.githubusercontent.com/23255126/208322390-bae79bf3-2386-4127-bf9c-965a3c8ea23c.png">
+
+<img width="389" alt="l5" src="https://user-images.githubusercontent.com/23255126/208322391-3f0de915-0609-47cd-b3a9-a6107735eb25.png">
+
+<img width="257" alt="l6" src="https://user-images.githubusercontent.com/23255126/208322397-1aaaac2a-b68b-4345-8d90-40a272a05595.png">
+
+<img width="433" alt="l7" src="https://user-images.githubusercontent.com/23255126/208322401-77f58f07-8705-4b0c-9eb3-7618cd89b55d.png">
