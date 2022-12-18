@@ -9,14 +9,14 @@ from graphframes import *
 
 # Recipe 9-1. Create GraphFrames
 #     person dataframe : id, Name, age
-personsDf = spark.read.csv('in/person.csv',header=True, inferSchema=True)
+personsDf = spark.read.csv('graphX/person.csv',header=True, inferSchema=True)
 
 # Create a "persons" SQL table from personsDF DataFrame
 personsDf.createOrReplaceTempView("persons")
 spark.sql("select * from persons").show()
 
 # relationship dataframe : src, dst, relation
-relationshipDf = spark.read.csv('in/relationship.csv',header=True, inferSchema=True)
+relationshipDf = spark.read.csv('graphX/relationship.csv',header=True, inferSchema=True)
 relationshipDf.createOrReplaceTempView("relationship")
 spark.sql("select * from relationship").show()
 
