@@ -17,3 +17,17 @@ oth GraphFrames and GraphX are useful tools for working with graph data in Spark
 
 
 <img width="247" alt="d1" src="https://user-images.githubusercontent.com/23255126/208321722-e700c330-aa13-45e9-8886-3d71d1a2254b.png">
+
+# Installation Steps:
+
+## Create the Vitual Machine on GCP and SSH into it:
+<img width="461" alt="k1" src="https://user-images.githubusercontent.com/23255126/208321867-eb18befe-7479-4141-b9bb-9b6e225cef54.png">
+
+## Install Java:
+
+- sudo apt-get update
+- sudo apt-get install openjdk-11-jdk
+
+
+<img width="476" alt="g2" src="https://user-images.githubusercontent.com/23255126/208321906-7e458e9f-415f-4d44-bba3-9e27d538dbf1.png">
+
