@@ -63,18 +63,10 @@ https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%
 
 ## Output:
 
+**GraphFrame:**
 
-<img width="433" alt="l3" src="https://user-images.githubusercontent.com/23255126/208322136-4cfaa3fa-9c2f-44ce-aca4-464820362b58.png">
-<img width="272" alt="l4" src="https://user-images.githubusercontent.com/23255126/208322137-385330e8-27c4-4026-9b10-6de263381e35.png">
-<img width="389" alt="l5" src="https://user-images.githubusercontent.com/23255126/208322138-9dc438ed-fd31-4842-bac2-684c82bd7a28.png">
-<img width="257" alt="l6" src="https://user-images.githubusercontent.com/23255126/208322139-cba54e5b-d97b-4238-8b39-cf66bee99429.png">
-<img width="433" alt="l7" src="https://user-images.githubusercontent.com/23255126/208322140-53596c96-f98d-452e-9078-892ece1c86f8.png">
-<img width="435" alt="l8" src="https://user-images.githubusercontent.com/23255126/208322141-c30b184b-2fbe-43ce-910b-2e1a5f83dacb.png">
-<img width="422" alt="l9" src="https://user-images.githubusercontent.com/23255126/208322142-c2bfea54-b2e2-4e9b-9269-751a7d34ecbf.png">
-<img width="502" alt="l10" src="https://user-images.githubusercontent.com/23255126/208322143-ad61cd19-dc10-4c12-bf87-78052342c937.png">
-<img width="523" alt="l11" src="https://user-images.githubusercontent.com/23255126/208322144-623f4750-6996-46a5-bec9-a5e0fdf102f5.png">
-<img width="509" alt="l12" src="https://user-images.githubusercontent.com/23255126/208322145-f20d1fd9-39d9-4330-a7cf-5d6bf313b256.png">
-<img width="421" alt="l1" src="https://user-images.githubusercontent.com/23255126/208322147-3f57b686-2c2a-4e29-9cdc-c13676f677ec.png">
-<img width="305" alt="l2" src="https://user-images.githubusercontent.com/23255126/208322148-f8f6141c-ce98-40fc-a0f1-0de341c97b8b.png">
+
+<img width="421" alt="l1" src="https://user-images.githubusercontent.com/23255126/208322282-16f6ebcf-a355-4fa3-b679-cf71a8e0102f.png">
+<img width="305" alt="l2" src="https://user-images.githubusercontent.com/23255126/208322283-ea3dbeb2-c617-4688-a67a-6663ba39353b.png">
 
 
