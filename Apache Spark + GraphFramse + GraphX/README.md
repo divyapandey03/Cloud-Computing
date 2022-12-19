@@ -101,4 +101,4 @@ https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%
 
 ## Presentation Link:
 
-- https://docs.google.com/presentation/d/1c6fvobNsz-KAFJ7mj4I5hVbbjDUebqDL/edit#slide=id.p18
+- https://docs.google.com/presentation/d/1c6fvobNsz-KAFJ7mj4I5hVbbjDUebqDL/edit#slide=id.p1
