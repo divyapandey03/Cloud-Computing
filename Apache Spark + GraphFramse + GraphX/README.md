@@ -61,7 +61,7 @@ https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%
    
 ## Submit PySpark Job:
 
-- spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 pyspark_graphX.py
+- spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 graphX.py
 
 
 ## Output:
