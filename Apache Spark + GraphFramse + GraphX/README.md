@@ -33,9 +33,9 @@ GraphX is another graph processing library for Apache Spark. It provides a set o
 
 ## Install Spark and Unpack it:
 
-- $ wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
-- $ tar -xvf spark-3.3.1-bin-hadoop3.tgz
-- $ mv spark-3.3.1-bin-hadoop3 spark
+-  wget https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+-  tar -xvf spark-3.3.1-bin-hadoop3.tgz
+-  mv spark-3.3.1-bin-hadoop3 spark
 
 <img width="485" alt="g1" src="https://user-images.githubusercontent.com/23255126/208321934-021463a4-cd05-4ca7-9a60-c18881521df8.png">
 
