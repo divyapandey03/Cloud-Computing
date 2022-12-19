@@ -98,3 +98,7 @@ https://github.com/divyapandey03/Cloud-Computing/blob/main/Apache%20Spark%20%2B%
 <img width="523" alt="l11" src="https://user-images.githubusercontent.com/23255126/208322517-b5721bc5-1f9f-46a0-8f30-8e0e335f9666.png">
 
 <img width="509" alt="l12" src="https://user-images.githubusercontent.com/23255126/208322520-0f9b9f29-db7d-4b79-9276-88da4aff9b7f.png">
+
+## Presentation Link:
+
+- https://docs.google.com/presentation/d/1c6fvobNsz-KAFJ7mj4I5hVbbjDUebqDL/edit#slide=id.p18
